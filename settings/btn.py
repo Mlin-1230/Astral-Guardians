@@ -1,0 +1,71 @@
+import pygame
+
+from settings.config import *
+from settings.load_text import *
+
+#初始按鈕
+btn_Start_font = pygame.font.Font(font_name, 60)
+btn_Start_surface = btn_Start_font.render("開始遊戲", True, WHITE)
+btn_Start_rect = btn_Start_surface.get_rect()
+btn_Start_rect.centerx = WIDTH/14*3
+btn_Start_rect.centery = 375
+btn_Setting_font = pygame.font.Font(font_name, 60)
+btn_Setting_surface = btn_Start_font.render("設定", True, GRAY)
+btn_Setting_rect = btn_Start_surface.get_rect()
+btn_Setting_rect.centerx = WIDTH/6
+btn_Setting_rect.centery = 800
+btn_Rule_font = pygame.font.Font(font_name, 60)
+btn_Rule_surface = btn_Rule_font.render("規則", True, WHITE)
+btn_Rule_rect = btn_Rule_surface.get_rect()
+btn_Rule_rect.centerx = WIDTH/6
+btn_Rule_rect.centery = 500
+btn_Market_font = pygame.font.Font(font_name, 60)
+btn_Market_surface = btn_Rule_font.render("商城", True, WHITE)
+btn_Market_rect = btn_Rule_surface.get_rect()
+btn_Market_rect.centerx = WIDTH/6
+btn_Market_rect.centery = 625
+btn_Return_font = pygame.font.Font(font_name, 60)
+btn_Return_surface = btn_Rule_font.render("首頁", True, GRAY)
+btn_Return_rect = btn_Rule_surface.get_rect()
+btn_Return_rect.centerx = WIDTH/2
+btn_Return_rect.centery = HEIGHT/8*7
+btn_Return_S_font = pygame.font.Font(font_name, 60)
+btn_Return_S_surface = btn_Rule_font.render("返回", True, GRAY)
+btn_Return_S_rect = btn_Rule_surface.get_rect()
+btn_Return_S_rect.centerx = WIDTH/2
+btn_Return_S_rect.centery = HEIGHT/6*5
+btn_Again_font = pygame.font.Font(font_name, 60)
+btn_Again_surface = btn_Rule_font.render("首頁", True, GRAY)
+btn_Again_rect = btn_Rule_surface.get_rect()
+btn_Again_rect.centerx = WIDTH/4
+btn_Again_rect.centery = HEIGHT/4*3
+btn_Quit1_font = pygame.font.Font(font_name, 60)
+btn_Quit1_surface = btn_Rule_font.render("離開", True, GRAY)
+btn_Quit1_rect = btn_Rule_surface.get_rect()
+btn_Quit1_rect.centerx = WIDTH/3
+btn_Quit1_rect.centery = 800
+btn_Quit2_font = pygame.font.Font(font_name, 60)
+btn_Quit2_surface = btn_Rule_font.render("離開", True, GRAY)
+btn_Quit2_rect = btn_Rule_surface.get_rect()
+btn_Quit2_rect.centerx = WIDTH/4*3
+btn_Quit2_rect.centery = HEIGHT/4*3
+btn_Next_font = pygame.font.Font(font_name, 60)
+btn_Next_surface = btn_Rule_font.render("下一頁", True, GRAY)
+btn_Next_rect = btn_Rule_surface.get_rect()
+btn_Next_rect.centerx = WIDTH/8*7
+btn_Next_rect.centery = HEIGHT/8*7
+btn_Pre_font = pygame.font.Font(font_name, 60)
+btn_Pre_surface = btn_Rule_font.render("上一頁", True, GRAY)
+btn_Pre_rect = btn_Rule_surface.get_rect()
+btn_Pre_rect.centerx = WIDTH/8
+btn_Pre_rect.centery = HEIGHT/8*7
+btn_Music_font = pygame.font.Font(font_name, 60)
+btn_Music_surface = btn_Rule_font.render("Music", True, WHITE)
+btn_Music_rect = btn_Rule_surface.get_rect()
+btn_Music_rect.centerx = 450
+btn_Music_rect.centery = HEIGHT/7*2
+btn_Sound_font = pygame.font.Font(font_name, 60)
+btn_Sound_surface = btn_Rule_font.render("Sound", True, WHITE)
+btn_Sound_rect = btn_Rule_surface.get_rect()
+btn_Sound_rect.centerx = 870
+btn_Sound_rect.centery = HEIGHT/7*2
